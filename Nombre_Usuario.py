@@ -6,10 +6,9 @@ def verification_user(user):
 
     if len(user)>=6 and len(user)<=12:
         print("Entrando...")
-    elif len(user)<6:
-        print("Minimo 6 caracteres")
+
     else:
-        print("Maximo 12 caracteres")
+        print("ERROR")
 
 #-----------------Funcion que solicita datos-----------------
 def run():
